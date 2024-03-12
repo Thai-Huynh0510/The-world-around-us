@@ -5,7 +5,7 @@ const blogSchema = new mongoose.Schema({
         type:String,
         require:[true, "Title must be provided"]
     },
-    post:{
+    comment:{
         type:String,
         require:[true, "Description must be provided"]
     },
